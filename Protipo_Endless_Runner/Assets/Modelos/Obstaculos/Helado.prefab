@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 1930593549587513036}
   - component: {fileID: 2765319519151123127}
   - component: {fileID: 7184090277430040916}
+  - component: {fileID: -2999074157528026590}
   m_Layer: 0
   m_Name: Helado
   m_TagString: obstaculo
@@ -360,6 +361,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2999074157528026590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576991488069574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57edc68ec823ea249aa03272bdafb759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 1
 --- !u!1 &1643139432598766
 GameObject:
   m_ObjectHideFlags: 0

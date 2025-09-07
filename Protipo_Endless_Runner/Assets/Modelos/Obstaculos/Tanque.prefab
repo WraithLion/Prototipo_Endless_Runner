@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 4578511462063657876}
   - component: {fileID: 621094026852928345}
   - component: {fileID: 6361482863482996942}
+  - component: {fileID: -2705526204170967933}
   m_Layer: 0
   m_Name: Tanque
   m_TagString: obstaculo
@@ -441,3 +442,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio: {fileID: 8300000, guid: 79b4a0f6c87815d4381b8540263b9178, type: 3}
   audioS: {fileID: 621094026852928345}
+--- !u!114 &-2705526204170967933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947128498660186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57edc68ec823ea249aa03272bdafb759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 3

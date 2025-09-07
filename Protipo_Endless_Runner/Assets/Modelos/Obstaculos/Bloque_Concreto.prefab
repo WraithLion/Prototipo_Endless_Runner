@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -4781725032964890431}
   - component: {fileID: -6091629223987813902}
   - component: {fileID: 2557828504132556710}
+  - component: {fileID: -1499415768210658242}
   m_Layer: 0
   m_Name: Bloque_Concreto
   m_TagString: obstaculo
@@ -241,3 +242,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio: {fileID: 8300000, guid: 79b4a0f6c87815d4381b8540263b9178, type: 3}
   audioS: {fileID: -6091629223987813902}
+--- !u!114 &-1499415768210658242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051354519210185303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57edc68ec823ea249aa03272bdafb759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 1

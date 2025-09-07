@@ -447,6 +447,7 @@ GameObject:
   - component: {fileID: -6088509099843212474}
   - component: {fileID: 778884949142329863}
   - component: {fileID: 8690078081485261480}
+  - component: {fileID: -7528940592937639659}
   m_Layer: 0
   m_Name: Turistas
   m_TagString: obstaculo
@@ -609,3 +610,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-7528940592937639659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911806486366516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57edc68ec823ea249aa03272bdafb759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 2
