@@ -18,8 +18,8 @@ public class Disparar : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(EnfriarCalor());
-    }
+        StartCoroutine(EnfriarCalor());   
+}
 
     IEnumerator EnfriarCalor()
     {
