@@ -22,7 +22,6 @@ public class Movimiento : MonoBehaviour
         float movHorizontal= Input.GetAxis("Horizontal");
         float movVertical= Input.GetAxis("Vertical");
         Vector3 mov=new Vector3(movHorizontal,0,movVertical);
-
         rb.AddForce(mov*velocidad);
     }
 }
