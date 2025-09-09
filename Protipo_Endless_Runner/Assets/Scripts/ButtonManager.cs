@@ -16,6 +16,6 @@ public class ButtonManager : MonoBehaviour
     public void Menu()
     {
         Time.timeScale = 1.0f;
-        SceneManager.LoadScene(inicio);
+        SceneManager.LoadScene("Menu");
     }
 }
