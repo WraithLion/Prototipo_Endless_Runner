@@ -167,8 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 1
-  dificultad: 1
-  AdminObj: {fileID: 3008496189299947342, guid: a5d91aa652554be4399b3762c1160911, type: 3}
 --- !u!114 &821398235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+  adminObj: {fileID: 0}
+  dificultad: 0
+  temp: 0
 --- !u!114 &821398236
 MonoBehaviour:
   m_ObjectHideFlags: 0

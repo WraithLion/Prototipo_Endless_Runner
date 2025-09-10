@@ -798,6 +798,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282575610}
   m_CullTransparentMesh: 1
+--- !u!1 &320475181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320475183}
+  - component: {fileID: 320475182}
+  m_Layer: 0
+  m_Name: Admin
+  m_TagString: Admin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &320475182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320475181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e1e7bd44093d548858631376d3a475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificultadGlobal: 55
+--- !u!4 &320475183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320475181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.353793, y: 13.52651, z: -4.3619156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &405495061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1546,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 989699352985705326, guid: 6f08b962ee9a1d142aecb61eb7fb41b8, type: 3}
+      propertyPath: adminObj
+      value: 
+      objectReference: {fileID: 320475181}
     - target: {fileID: 2728266183546661647, guid: 6f08b962ee9a1d142aecb61eb7fb41b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.75
@@ -1581,6 +1630,14 @@ PrefabInstance:
       propertyPath: Admin
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8939125798007448256, guid: 6f08b962ee9a1d142aecb61eb7fb41b8, type: 3}
+      propertyPath: admin
+      value: 
+      objectReference: {fileID: 320475181}
+    - target: {fileID: 8939125798007448256, guid: 6f08b962ee9a1d142aecb61eb7fb41b8, type: 3}
+      propertyPath: adminObj
+      value: 
+      objectReference: {fileID: 320475181}
     - target: {fileID: 8939125798007448256, guid: 6f08b962ee9a1d142aecb61eb7fb41b8, type: 3}
       propertyPath: barreras.Array.data[0]
       value: 
@@ -1767,24 +1824,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366462813}
   m_CullTransparentMesh: 1
---- !u!1 &1465658084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3008496189299947342, guid: a5d91aa652554be4399b3762c1160911, type: 3}
-  m_PrefabInstance: {fileID: 3008496189166118832}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1465658089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465658084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e1e7bd44093d548858631376d3a475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dificultadGlobal: 1
 --- !u!1 &1581336330
 GameObject:
   m_ObjectHideFlags: 0
