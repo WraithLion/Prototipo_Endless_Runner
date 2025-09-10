@@ -66,7 +66,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57edc68ec823ea249aa03272bdafb759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 0
+  vida: 1
+  dificultad: 1
+  AdminObj: {fileID: 3008496189299947342, guid: a5d91aa652554be4399b3762c1160911, type: 3}
 --- !u!114 &1816215915
 MonoBehaviour:
   m_ObjectHideFlags: 0

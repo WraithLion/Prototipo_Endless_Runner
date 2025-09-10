@@ -9,10 +9,23 @@ public class Avance_Obstaculos : MonoBehaviour
 {
 
 	public float speed;
-
+    public GameObject adminObj;
+    public int dificultad;
+    public int temp;
+    void Start()
+    {
+        dificultad = adminObj.GetComponent<Admin>().dificultadGlobal;
+        temp = dificultad;
+    }
     // Update is called once per frame
     void Update()
     {
+    // dificultad = adminObj.GetComponent<Admin>().dificultadGlobal;
+    // if (dificultad > temp)
+    // {
+    //     speed += 5;
+    //     temp = dificultad;
+    // }
 	this.transform.Translate(0,0,Time.deltaTime*speed);        
     }
 }
