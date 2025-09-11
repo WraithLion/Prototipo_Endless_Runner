@@ -25,7 +25,7 @@ public class Generar_Obstaculos : MonoBehaviour
 		}
 		for (int i = 0; i < 4; i++)
 		{
-			
+			c=Random.Range(0,4);	//Asignacion de un muro al azar.
 			//Condicion si la iteracion es par para asignar un carril
 			if(i%2==0){
 			carril=Random.Range(1,4); //Se elige al azar una de las tres variantes de carril
