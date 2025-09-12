@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Leonardo Aguirre Muñoz
+//Alan Escalante Galvan
 //Equipo "Asesinos Imperiales"
 
 public class Remover_Obstaculo : MonoBehaviour
 {
-	private void OnCollisionEnter(Collision collision){
-		if(collision.gameObject.tag=="obstaculo"){
+	private void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.tag == "obstaculo")
+		{
 			Destroy(collision.gameObject);
 		}
 	}
