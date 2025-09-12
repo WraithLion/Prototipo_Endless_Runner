@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Leonardo Aguirre Muñoz
+//Alan Escalante Galvan
 //Equipo "Asesinos Imperiales"
 
 public class Movimiento : MonoBehaviour
@@ -13,15 +14,15 @@ public class Movimiento : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    rb= this.GetComponent<Rigidbody>();    
+        rb = this.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float movHorizontal= Input.GetAxis("Horizontal");
-        float movVertical= Input.GetAxis("Vertical");
-        Vector3 mov=new Vector3(movHorizontal,0,movVertical);
-        rb.AddForce(mov*velocidad);
+        float movHorizontal = Input.GetAxis("Horizontal");
+        float movVertical = Input.GetAxis("Vertical");
+        Vector3 mov = new Vector3(movHorizontal, 0, movVertical);
+        rb.AddForce(mov * velocidad);
     }
 }
